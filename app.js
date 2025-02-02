@@ -2,24 +2,31 @@
 let amigos = [];
 // pega o resultado dos input
 function pegaResultado(tagInput) {
-  return document.querySelector(tagInput).value;
+  return document.querySelector(tagInput).value.toLowerCase();
 }
 
 function sortearAmigo() {
   resultado = parseInt(Math.random() * amigos.length);
-  criarElementoFilho("resultado", "input", amigos[resultado]);
+  criarElementoFilho("resultado", "li", amigos[resultado]);
 }
 
 function adicionarAmigo() {
   // se  não for vazio adicione
-  if (document.querySelector("input").value !== "") {
-    amigos.push(pegaResultado("input"));
-    criarElementoFilho("listaAmigos", "input", pegaResultado("input"));
-    limparCampo();
+
+  if (!amigos.includes(pegaResultado("input"))) {
+    console.log("sim");
+
+    if (document.querySelector("input").value !== "") {
+      amigos.push(pegaResultado("input"));
+      criarElementoFilho("listaAmigos", "li", pegaResultado("input"));
+      limparCampo();
+    } else {
+      alert(
+        "Não é possível adicionar um campo vazio, certifique que o nome esteja digitado."
+      );
+    }
   } else {
-    alert(
-      "Não é possível adicionar um capo vazio, certifique que o nome esteja digitado."
-    );
+    alert("Amigo já Adicionado!");
   }
 }
 
@@ -29,8 +36,11 @@ function limparCampo() {
 }
 
 function criarElementoFilho(id, tag, texto) {
+  // id do elemento pai
+  // tag do novo elemento
+  // texto da tag
   let elementoPai = document.getElementById(id);
-  let novoItem = document.createElement("li");
+  let novoItem = document.createElement(tag);
 
   // texto do item
   novoItem.textContent = texto;
