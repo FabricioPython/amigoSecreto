@@ -7,18 +7,32 @@ function pegaResultado(tagInput) {
 
 function sortearAmigo() {
   resultado = parseInt(Math.random() * amigos.length);
-  return amigos[resultado];
+  criarElementoFilho("resultado", "input", amigos[resultado]);
 }
 
 function adicionarAmigo() {
   // se  não for vazio adicione
   if (document.querySelector("input").value !== "") {
     amigos.push(pegaResultado("input"));
+    criarElementoFilho("listaAmigos", "input", pegaResultado("input"));
     limparCampo();
+  } else {
+    alert(
+      "Não é possível adicionar um capo vazio, certifique que o nome esteja digitado."
+    );
   }
 }
 
 function limparCampo() {
   chute = document.querySelector("input");
   chute.value = "";
+}
+
+function criarElementoFilho(id, tag, texto) {
+  let elementoPai = document.getElementById(id);
+  let novoItem = document.createElement("li");
+
+  // texto do item
+  novoItem.textContent = texto;
+  elementoPai.appendChild(novoItem);
 }
