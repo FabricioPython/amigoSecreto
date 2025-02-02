@@ -6,8 +6,13 @@ function pegaResultado(tagInput) {
 }
 
 function sortearAmigo() {
-  resultado = parseInt(Math.random() * amigos.length);
-  criarElementoFilho("resultado", "li", amigos[resultado]);
+  if (amigos.length > 2) {
+    //liberarBotao();
+    resultado = parseInt(Math.random() * amigos.length);
+    criarElementoFilho("resultado", "li", amigos[resultado]);
+  } else {
+    alert("Adicione pelo menos 3 amigos na sua lista para Sortear :)");
+  }
 }
 
 function adicionarAmigo() {
