@@ -9,7 +9,11 @@ function sortearAmigo() {
   if (amigos.length > 2) {
     //liberarBotao();
     resultado = parseInt(Math.random() * amigos.length);
-    criarElementoFilho("resultado", "li", amigos[resultado]);
+    criarElementoFilho(
+      "resultado",
+      "li",
+      "O amigo sorteado foi: " + amigos[resultado]
+    );
   } else {
     alert("Adicione pelo menos 3 amigos na sua lista para Sortear :)");
   }

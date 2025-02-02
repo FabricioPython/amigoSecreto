@@ -1,3 +1,1 @@
-<h1 align="center">Amigo Secreto</h1>
-
-![logo](\challenge-amigo-secreto_pt-main\assets\amgs.png)
+![logo](/challenge-amigo-secreto_pt-main/challenge-amigo-secreto_pt-main/assets/amgs.png)
