@@ -1,8 +1,10 @@
-<h1 align="center">Amigo Secreto</h1>
+<h1 align="center">Amigo Secreto ✔️</h1>
+
+
 
 # Sobre:
 
-_Adiciona uma lista de nomes, que são os seus amigos, para sortear um amigo secreto por vez._
+🪄_Adicione uma lista de nomes, que são os seus amigos, para sortear um amigo secreto por vez._
 
 ## Tecnologias:
 
@@ -10,7 +12,7 @@ _Adiciona uma lista de nomes, que são os seus amigos, para sortear um amigo sec
 
 [Clique Aqui Para sortear seu amigo secreto!](https://amigo-secreto-7vzmvzatz-fabricios-projects-4d71b1f2.vercel.app/)
 
-![logo do site](/challenge-amigo-secreto_pt-main/challenge-amigo-secreto_pt-main/assets/amgs.png)
+![logo do site](/assets/amgs.png)
 
 # Autor
 
