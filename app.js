@@ -53,5 +53,6 @@ function criarElementoFilho(id, tag, texto) {
 
   // texto do item
   novoItem.textContent = texto;
+  //console.log(texto.toUpperCase());
   elementoPai.appendChild(novoItem);
 }
