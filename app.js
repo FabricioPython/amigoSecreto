@@ -23,7 +23,7 @@ function adicionarAmigo() {
   // se  não for vazio adicione
 
   if (!amigos.includes(pegaResultado("input"))) {
-    console.log("sim");
+    //console.log("sim");
 
     if (document.querySelector("input").value !== "") {
       amigos.push(pegaResultado("input"));
@@ -40,8 +40,8 @@ function adicionarAmigo() {
 }
 
 function limparCampo() {
-  chute = document.querySelector("input");
-  chute.value = "";
+  let valor = document.querySelector("input");
+  valor.value = "";
 }
 
 function criarElementoFilho(id, tag, texto) {
