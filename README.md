@@ -10,7 +10,7 @@
 
 ![Static Badge](https://img.shields.io/badge/HTML-red) ![Static Badge](https://img.shields.io/badge/CSS-violet) ![Static Badge](https://img.shields.io/badge/JavasCript-yellow)
 
-[Clique Aqui Para sortear seu amigo secreto!]([https://amigo-secreto-7vzmvzatz-fabricios-projects-4d71b1f2.vercel.app/](https://amigo-secreto-blush-delta.vercel.app/))
+[Clique Aqui Para sortear seu amigo secreto!](https://amigo-secreto-blush-delta.vercel.app/)
 
 ![logo do site](/assets/amgs.png)
 
