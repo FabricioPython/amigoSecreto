@@ -4,13 +4,13 @@
 
 # Sobre:
 
-🪄_Adicione uma lista de nomes, que são os seus amigos, para sortear um amigo secreto por vez._
+🪄 _Adicione uma lista de nomes, que são os seus amigos, para sortear um amigo secreto por vez._
 
 ## Tecnologias:
 
 ![Static Badge](https://img.shields.io/badge/HTML-red) ![Static Badge](https://img.shields.io/badge/CSS-violet) ![Static Badge](https://img.shields.io/badge/JavasCript-yellow)
 
-[Clique Aqui Para sortear seu amigo secreto!](https://amigo-secreto-7vzmvzatz-fabricios-projects-4d71b1f2.vercel.app/)
+[Clique Aqui Para sortear seu amigo secreto!]([https://amigo-secreto-7vzmvzatz-fabricios-projects-4d71b1f2.vercel.app/](https://amigo-secreto-blush-delta.vercel.app/))
 
 ![logo do site](/assets/amgs.png)
 
